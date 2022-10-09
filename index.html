@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SWE Team Minutes</title>
+    <link rel="shortcut icon" type="image/png" href="swe.png">
+  </head>
+  <body>
+    <header>
+        <div>All SWE Team Weekly Meeting Minutes</div>
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinished business">Unfinished Business</a></li>
+                <li><a href="#new business">New Business</a></li>
+                <li><a href="#questions">Questions/Comments</a></li>
+                <li><a href="#meeting pictures">Meeting Pictures</a></li>
+                <li><a href="#meeting recording">Meeting Recording</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1><span>Eta Team Meeting</span></h1>
+        <h2> Weekly Check-In</h2>
+        <h3>10/07/2022</h3>
+        <section id="attendance"><b>Attendance</b></section>
+        <p>All members of Eta Team are present.</p>
+        <hr>
+        <section id ="agenda"><strong>Agenda</strong></section>
+        <ol>
+            <li>Follow up on <i>unfinished business</i> from last week's meeting</li>
+            <li>Proceed to <em>new business</em> for this week</li>
+            <li>Time for questions and additional topics</li>
+        </ol>
+        <hr>
+        <section id="unfinished business"><b>Unfinished Business</b></section>
+        <ul>
+            <li>Finished debug for most recent branch commit after adding changes from customer feedback</li>
+            <li>Assigned roles for next project planning</li>
+        </ul>
+        <hr>
+        <section id="new business"><b>New Business</b></section>
+        <p>Brainstorm for new project</p>
+        <ul>
+            <li>Implement similar improvements as the project from last February (refer to diagram in Meeting Pictures)</li>
+            <li>Will devote around half of the team members to begin on the new project while the rest wrap up previous</li>
+        </ul>
+        <hr>
+        <section id="questions"><b>Questions/Comments</b></section>
+        <ul>
+            <li>Q: What is the timeline for the new project? <br> A: We are aiming to have the new project finished in the next month.</li>
+        </ul>
+        <hr>
+    </main>
+    <footer>
+        <details>
+            <summary id="meeting pictures">Meeting Pictures</summary>
+            <p>Here are the pictures from the meeting:</p>
+            <img src="https://webeduclick.com/wp-content/uploads/2021/01/Software-Engineering.png">
+        </details>
+        <details>
+            <summary id="meeting recording">Meeting Recording</summary>
+            <p>Here is the meeting recording:</p>
+            <video src="test_video.MOV" controls></video>
+            <audio src="test_audio.m4a" controls></audio>
+        </details>
+        <form>
+            <fieldset>
+                <input type="text" placeholder="Name">
+                <br>
+                <label for="datalist">Are you on the new project?:</label>
+                <input list="datalist options" name="datalist" id="datalist">
+                <datalist id="datalist options">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+                <br>
+                <label for="select">Are you wrapping up the finished project?:</label>
+                <select name="select" id="select">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Check if you are satisfied with your role</label><br>
+                <input type="radio" id="radio">
+                <label for="radio">Select if you have additional questions</label>
+                <p>Fill in the question below:</p>
+                <textarea></textarea>
+                <br>
+                <input type="date" id="date">
+                <label for="date">Today's Date</label><br>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </footer>
+  </body>
+</html>
