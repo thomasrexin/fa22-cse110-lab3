@@ -29,7 +29,7 @@
         <h2> Weekly Check-In</h2>
         <h3>10/07/2022</h3>
         <section id="attendance"><b>Attendance</b></section>
-        <p>All members of Eta Team are present.</p>
+        <p class="normaltext">All members of Eta Team are present.</p>
         <hr>
         <section id ="agenda"><strong>Agenda</strong></section>
         <ol>
@@ -45,7 +45,7 @@
         </ul>
         <hr>
         <section id="new_business"><b>New Business</b></section>
-        <p>Brainstorm for new project</p>
+        <p class="normaltext">Brainstorm for new project:</p>
         <ul>
             <li>Implement similar improvements as the project from last February (refer to diagram in Meeting Pictures)</li>
             <li>Will devote around half of the team members to begin on the new project while the rest wrap up previous</li>
@@ -56,6 +56,18 @@
             <li>Q: What is the timeline for the new project? <br> A: We are aiming to have the new project finished in the next month.</li>
         </ul>
         <hr>
+        <p>Select an option:</p>
+        <div id="grid">
+            <div class="option">Option 1</div> <div class="option">Option 2</div>
+            <div class="option">Option 3</div> <div class="option">Option 4</div>
+            <div class="option">Option 5</div> <div class="option">Option 6</div>
+        </div>
+        <hr>
+        <div class="flex">
+            <div style="flex-basis: 200px">Thanks</div>
+            <div style="flex-basis: 200px">for</div>
+            <div style="flex-basis: 200px">coming!</div>
+        </div>
     </main>
     <footer>
         <details>
@@ -90,7 +102,9 @@
                 <label for="checkbox">Check if you are satisfied with your role</label><br>
                 <input type="radio" id="radio">
                 <label for="radio">Select if you have additional questions</label>
-                <p>Fill in the question below:</p>
+                <br>
+                <p>Fill in the question in the box: </p>
+                <br>
                 <textarea></textarea>
                 <br>
                 <input type="date" id="date">
