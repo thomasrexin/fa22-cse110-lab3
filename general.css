@@ -1,0 +1,93 @@
+/* External CSS Stylesheet for Meeting Minutes */
+
+@media screen and (min-width: 500px) {
+    main {
+        font-size: 12pt;
+    }
+}
+
+/* List items in the meeting minutes */
+li {
+    color: gray;
+    display: grid;
+    grid-template-rows: [row1-start] auto [row1-end] auto [third-line] auto [last-line];
+    grid-column-start: row1-start;
+    grid-column-end: last-line;
+}
+
+/* Main Title */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2E2252;
+    border-style: solid;
+    border-color: #2E2252;
+    border-width: 1lh;
+    border-radius: 15px;
+    margin: auto;
+    padding: 0.5em;
+    text-decoration: underline;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+    background-color: white;
+}
+
+/* Meeting Name */
+h2 {
+    color: rgb(145, 113, 83);
+    border: 2px solid rgb(145, 113, 83);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: block;
+}
+
+/* Date */
+h3 {
+    color: hsl(149, 27.2%, 44.7%);
+    margin: 1em 1em 1em 1em;
+    text-align: center;
+}
+
+/* Individual Section Headers */
+section {
+    background-color: beige;
+}
+
+/* Normal Test */
+p {
+    display: inline-block;
+}
+
+/* Meeting Picture */
+img {
+    height: 400px;
+    width: 400px;
+    max-height: 300px;
+    max-width: 300px;
+    position: relative;
+    left: 100px;
+}
+
+/* Submit Button */
+button:hover {
+    color: blue;
+}
+
+button:active {
+    box-shadow: 2px 2px 5px black;
+}
+
+/* Form Text */
+label {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    flex-shrink: 5;
+}
